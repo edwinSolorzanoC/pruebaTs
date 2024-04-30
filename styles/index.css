@@ -1,0 +1,343 @@
+@import url(main.css);
+
+
+.inicio{
+
+    background-image: url(../img/abajo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 70vh;
+
+}
+
+.inicio .texto{
+    
+    height: 100%;
+    color: white;
+    align-content: center;
+    text-align: center;
+
+    padding: 0% 5%;
+
+}
+.inicio .texto h1{
+    font-size: 2rem;
+}
+.inicio .texto p{
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+.inicio .texto img{
+    height: 50px;
+}
+
+
+@media screen and (min-width:800px){
+
+    .inicio{
+        height: 90vh;
+    
+    }
+    .inicio h1{
+        font-size: 3rem;
+    }
+    .inicio h2{
+        font-size: 2rem;
+    }
+    .inicio .texto img{
+        height: 100px;
+    }
+    
+}
+
+
+
+.menu{
+    background-image: url(../img/fondos/madera4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 100%;
+    padding: 5%;
+
+}
+
+.menu .opciones{
+    text-align: center;
+
+    color: white;
+
+    padding: 2%;
+}
+.menu .texto{
+    text-align: center;
+    color: white;
+}
+.menu .texto h1{
+    font-size: 2rem;
+}
+
+.menu .opciones .bocas{
+    background-image: url(../img/comidas/boca.jpg);
+}
+
+.menu .opciones .niños{
+    background-image: url(../img/comidas/niños.jpg);
+    
+}
+.menu .opciones .ceviche{
+    background-image: url(../img/comidas/ceviche.jpg);
+    
+}
+.menu .opciones .antojitos{
+    background-image: url(../img/comidas/antojito.jpg);
+    
+}
+.menu .opciones .birria{
+    background-image: url(../img/comidas/birria.jpg);
+    
+}
+.menu .opciones .carne{
+    background-image: url(../img/comidas/carne.jpg);
+    
+}
+.menu .opciones .pollo{
+    background-image: url(../img/comidas/pollo.jpg);
+    
+}
+.menu .opciones .pescado{
+    background-image: url(../img/comidas/pescado.jpg);
+    
+}
+.menu .opciones .casado{
+    background-image: url(../img/comidas/casado.jpg);
+    
+}
+.menu .opciones .pasta{
+    background-image: url(../img/comidas/pastas.jpg);
+    
+}
+.menu .opciones .arroces{
+    background-image: url(../img/comidas/arroces.jpg);
+    
+}
+.menu .opciones .bebida{
+    background-image: url(../img/comidas/bebida.jpg);
+}
+
+.menu .opciones .oscurecer{
+    align-content: center;
+    border-radius: 10px;
+
+}
+.menu .opciones .logito{
+    height: 50px;
+}
+
+
+.menu .opciones a{
+
+    height: 20vh;
+    margin: 4% 0%;
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+
+    
+    align-content: center;
+
+    border-radius: 10px;
+
+    /* nombre del timeline */
+    view-timeline-name: --image;
+    /* Forma en que se mustra block es vertical flex horizoxnlta */
+    view-timeline-axis: block;
+
+    /* Nombre animaicion */
+    animation-timeline: --image;
+    animation-name: show;
+    animation-duration: 1s;
+
+    /* Este es el ranggo en el que muestra la animacion */
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+}
+.menu .opciones a ,i{
+    color: white;
+    text-decoration: none;
+    display: block;
+
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+
+
+@media screen and (min-width:700px){
+
+    .menu .texto h1{
+        font-size: 3rem;
+    }
+    .menu .texto p{
+        font-size: 1.5rem;
+    }
+
+    .menu .opciones{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .menu .opciones a{
+
+        width: 30vh;
+        height: 30vh;
+
+        margin: 2% 1%;
+
+        font-size: 1rem;
+        display: block;
+        text-align: center;
+    }
+
+}
+
+
+
+
+.sobreNosotros{
+    background-image: url(../img/3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sobreNosotros .texto{
+    text-align: center;
+    padding: 5%;
+
+    color: white;
+}
+.sobreNosotros .texto .titulo{
+    font-weight: 500;
+}
+.sobreNosotros .texto p{
+    padding: 2% 0%;
+}
+.sobreNosotros a{
+    color: white;
+    font-weight: 200;
+
+    text-decoration: none;
+}
+.sobreNosotros iframe{
+    width: 90%;
+    height: 30vh;
+}
+
+@media screen and (min-width:700px){
+
+    .sobreNosotros .texto{
+        padding: 2% 5%;
+    }
+    .sobreNosotros .texto p{
+        padding: 0% 0%;
+    }
+    .sobreNosotros iframe{
+        width: 80%;
+        height: 50vh;
+    }
+    
+}
+
+.reservar{
+    background-image: url(../img/6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 50vh;
+
+    color: white;
+}
+.reservar .oscurecer{
+    align-content: center;
+}
+.reservar .texto{
+    padding: 5%;
+}
+.reservar .oscurecer .texto .izquierda{
+    text-align: end;
+}
+.reservar .izquierda a{
+
+    color: #32620E;
+    text-decoration: none;
+    font-weight: 500;
+
+    background-color: rgba(0, 0, 0, 0.316);
+    padding: 2%;
+
+    border-bottom: 2px solid #32620E;
+}
+.reservar h1{
+    padding-bottom: 2%;
+}
+
+
+.imagenes .imagen{
+    background-image: url(../img/16.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 50vh;
+
+}
+.imagenes .imagen2{
+    background-image: url(../img/17.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 50vh;
+
+    text-align: end;
+    color: white;
+}
+.imagenes .imagen2 .oscurecer{
+    align-content: center;
+}
+.imagenes .imagen2 .oscurecer .texto{
+    padding: 5%;
+}
+.imagenes .imagen3{
+    background-image: url(../img/8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 50vh;
+}
+
+.video{
+    background-image: url(../img/6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
