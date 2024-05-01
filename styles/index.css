@@ -82,6 +82,46 @@
     font-size: 2rem;
 }
 
+.menu .opciones a{
+
+    height: 20vh;
+    margin: 4% 0%;
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+
+    
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+
+    /* nombre del timeline */
+    view-timeline-name: --image;
+    /* Forma en que se mustra block es vertical flex horizoxnlta */
+    view-timeline-axis: block;
+
+    /* Nombre animaicion */
+    animation-timeline: --image;
+    animation-name: show;
+    animation-duration: 1s;
+
+    /* Este es el ranggo en el que muestra la animacion */
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+
+
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
 .menu .opciones .bocas{
     background-image: url(../img/comidas/boca.jpg);
 }
@@ -135,54 +175,6 @@
     border-radius: 10px;
 
 }
-.menu .opciones .logito{
-    height: 50px;
-}
-
-
-.menu .opciones a{
-
-    height: 20vh;
-    margin: 4% 0%;
-
-    background-position: center;
-    background-size: cover;
-    background-attachment: scroll;
-
-    
-    align-content: center;
-    text-align: center;
-    justify-content: center;
-
-    border-radius: 10px;
-
-    /* nombre del timeline */
-    view-timeline-name: --image;
-    /* Forma en que se mustra block es vertical flex horizoxnlta */
-    view-timeline-axis: block;
-
-    /* Nombre animaicion */
-    animation-timeline: --image;
-    animation-name: show;
-    animation-duration: 1s;
-
-    /* Este es el ranggo en el que muestra la animacion */
-    animation-range: entry 25% cover 30%;
-    animation-fill-mode: both;
-}
-.menu .opciones a ,i{
-    color: white;
-    text-decoration: none;
-    display: block;
-
-    text-align: center;
-    align-content: center;
-    justify-content: center;
-
-    font-weight: 200;
-    font-size: 1.5rem;
-}
-
 
 
 @media screen and (min-width:700px){
@@ -221,7 +213,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 .sobreNosotros .oscurecer{
     backdrop-filter: blur(px);
@@ -274,16 +266,19 @@
 
     height: 50vh;
 
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .reservar .oscurecer{
     align-content: center;
     justify-content: center;
     align-content: center;
+    align-items: center;
 }
 .reservar .texto{
+    align-content: center;
     justify-content: center;
     align-content: center;
+    align-items: center;
     padding: 5%;
 }
 .reservar .oscurecer .texto .izquierda{
@@ -295,7 +290,6 @@
     text-decoration: none;
     font-weight: 500;
 
-    background-color: rgba(0, 0, 0, 0.316);
     padding: 2%;
 
     border-bottom: 2px solid #32620E;
@@ -304,7 +298,7 @@
     padding-bottom: 2%;
 }
 
-.imagenes .imagen2{
+.imagenes{
     background-image: url(../img/17.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -316,13 +310,15 @@
     text-align: end;
     align-content: center;
     justify-content: center;
-    color: white;
+    align-items: center;
+    color: rgb(255, 255, 255);
 }
-.imagenes .imagen2 .oscurecer{
+.imagenes .oscurecer{
     align-content: center;
     justify-content: center;
+    align-items: center;
 }
-.imagenes .imagen2 .oscurecer .texto{
+.imagenes .oscurecer .texto{
     padding: 5%;
 }
 
