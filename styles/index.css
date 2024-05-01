@@ -16,11 +16,14 @@
 .inicio .texto{
     
     height: 100%;
-    color: white;
-    align-content: center;
-    text-align: center;
+    color: rgb(255, 255, 255);
 
     padding: 0% 5%;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 
 }
 .inicio .texto h1{
@@ -308,15 +311,13 @@
     height: 50vh;
 
     text-align: end;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
     color: rgb(255, 255, 255);
 }
 .imagenes .oscurecer{
-    align-content: center;
+    text-align: end;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 .imagenes .oscurecer .texto{
     padding: 5%;
