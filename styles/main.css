@@ -40,6 +40,8 @@ header{
     background-color: rgb(255, 255, 255);
 
     align-items: center;
+
+    margin-bottom: 40%;
 }
 header .logo{
     text-align: center;
