@@ -10,20 +10,26 @@
     background-attachment: fixed;
 
     height: 70vh;
+    width: 100%;
 
+    text-align: center;
+    display: flex;
 }
 
+.inicio .oscurecer{
+    width: 100%;
+
+}
 .inicio .texto{
-    
+    width: 100%;
+
     height: 100%;
     color: rgb(255, 255, 255);
 
     padding: 0% 5%;
 
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     align-content: center;
+    
 
 }
 .inicio .texto h1{
