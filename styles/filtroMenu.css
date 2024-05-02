@@ -27,14 +27,22 @@ body, html {
 
 .overlay-content {
     padding: 10%;
+
     justify-content: center;
     text-align: center;
+
     color: white;
     
     overflow-y: auto; /* Agregar desplazamiento vertical */
     max-height: 80%; /* Ajustar la altura máxima según sea necesario */
 
 }
+.overlay .overlay-content a, .overlay .overlay-content i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}  
 .overlay-content img{
     height: 100%;
     width: 100%;
