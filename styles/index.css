@@ -88,6 +88,9 @@
     font-size: 2rem;
 }
 
+.menu .opciones{
+    align-items: center;
+}
 .menu .opciones a{
 
     height: 20vh;
@@ -113,15 +116,18 @@
     animation-range: entry 25% cover 30%;
     animation-fill-mode: both;
 
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     text-decoration: none;
-    display: flex;
 
+    display: flex;
+    align-items: center;
 
     font-weight: 200;
     font-size: 1.5rem;
+
 }
 .menu .opciones a .oscurecer{
+    display: block;
     width: 100%;
     align-items: center;
 }
