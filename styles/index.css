@@ -116,20 +116,21 @@
     animation-range: entry 25% cover 30%;
     animation-fill-mode: both;
 
-    color: #ffffff;
+    color: #ff0000;
     text-decoration: none;
 
     display: flex;
-    align-items: center;
+    text-align: center;
 
     font-weight: 200;
     font-size: 1.5rem;
 
 }
 .menu .opciones a .oscurecer{
-    display: block;
+    display: flex;
     width: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 .menu .opciones .bocas{
