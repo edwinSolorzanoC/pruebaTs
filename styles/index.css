@@ -97,12 +97,6 @@
     background-size: cover;
     background-attachment: scroll;
 
-    
-    align-content: center;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-
     border-radius: 10px;
 
     /* nombre del timeline */
@@ -121,11 +115,15 @@
 
     color: rgb(255, 255, 255);
     text-decoration: none;
-    display: block;
+    display: flex;
 
 
     font-weight: 200;
     font-size: 1.5rem;
+}
+.menu .opciones a .oscurecer{
+    width: 100%;
+    align-items: center;
 }
 
 .menu .opciones .bocas{
