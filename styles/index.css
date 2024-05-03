@@ -280,16 +280,10 @@
     color: rgb(255, 255, 255);
 }
 .reservar .oscurecer{
-    align-content: center;
-    justify-content: center;
-    align-content: center;
+    display: flex;
     align-items: center;
 }
 .reservar .texto{
-    align-content: center;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
     padding: 5%;
 }
 .reservar .oscurecer .texto .izquierda{
@@ -323,9 +317,8 @@
 }
 .imagenes .oscurecer{
     text-align: end;
-    justify-content: center;
+    display: flex;
     align-items: center;
-    align-content: center;
 }
 .imagenes .oscurecer .texto{
     padding: 5%;
