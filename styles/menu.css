@@ -1,12 +1,12 @@
 @import url(main.css);
 
 .opciones{
-    background-image: url(../img/10.jpg);
+    background-image: url(../img/16.jpg);
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-
+    background-size: 100%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    -webkit-background-attachment: scroll;
     text-align: center;
 
 }

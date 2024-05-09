@@ -65,8 +65,8 @@
 .menu{
     background-image: url(../img/fondos/madera4.jpg);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: 100%;
     background-attachment: scroll;
     -webkit-background-attachment:scroll;
 
