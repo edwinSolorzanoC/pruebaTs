@@ -7,8 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
-    -webkit-background-attachment: scroll;
+    background-attachment: fixed;
 
     height: 70vh;
     width: 100%;
@@ -67,8 +66,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
-    -webkit-background-attachment: scroll;
+    background-attachment: fixed;
 
     height: 100%;
     padding: 5%;
@@ -226,8 +224,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
-    -webkit-background-attachment: scroll;
+    background-attachment: fixed;
 }
 .sobreNosotros .oscurecer{
     backdrop-filter: blur(px);
@@ -276,8 +273,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
-    -webkit-background-attachment: scroll;
+    background-attachment: fixed;
 
     height: 50vh;
 
@@ -312,8 +308,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
-    -webkit-background-attachment: scroll;
+    background-attachment: fixed;
 
     height: 50vh;
 

@@ -14,9 +14,7 @@ p{
 }
 .oscurecer{
     backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
     background-color: rgba(0, 0, 0, 0.500);
-    -webkit-background-color: rgba(0, 0, 0, 0.500);
 
     height: 100%;
 }
