@@ -63,7 +63,7 @@
 
 
 .menu{
-    background-image: url(../img/fondos/IMG_0094.jpg);
+    background-image: url(../img/fondos/madera4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,9 +71,6 @@
     -webkit-background-attachment: scroll;
 
     height: 100%;
-
-}
-.menu .oscurecer{
     padding: 5%;
 
 }
