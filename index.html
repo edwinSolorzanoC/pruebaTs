@@ -3,331 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logoFondo.png" type="image/x-icon">
     <title>tsnaturalhut</title>
 
-    <link rel="shortcut icon" href="img/logoFondo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/filtroMenu.css">
 </head>
 <body>
     
     <header>
-
-        <div class="logo">
-            <img src="img/logoFondoBlanco.png" alt="">
-        </div>
-        <div class="navegacion">
-            <a href="index.html">Inicio</a>
-            <a href="menu.html">Menú</a>
-            <a href="indexIngles.html">English</a>
-        </div>
+        <p class="subtitulo-principal">TS NATURAL HUT</p>
     </header>
 
     <main>
 
-        <section class="inicio">
-
-            <div class="oscurecer">
-                <div class="texto">
-                    <h2 class="decorar">Restaurante</h2>
-                    <h1>Ts Natural Hut</h1>
-                    <p>Restaurante familiar</p>
-                    <img src="img/logoFondo.png" alt="">
-                </div>
-            </div>
-
-        </section>
-
-        
-
-        <section class="menu">
-            <div class="texto">
-                <h1 class="decorar">Nuestro Menú</h1>
-                <p>Les ofrecemos una experiencia única en la que podrán disfrutar de auténticos, deliciosos platillos y bebidas</p>
-            </div>
-            <div class="opciones">
-                
-                <a href="#" class="bocas" id="abrirBocas">
-                    <div class="oscurecer">
-                        <i class="fa-solid fa-bowl-food"></i><p>Bocas</p>
-                    </div>
-                </a>
-                <div id="panelBocas" class="overlay">
-                    <div class="oscurecer">
-                        <h2 class="decorar">Bocas</h2>
-                        <div class="overlay-content">
-                            <img src="img/menu/bocas.jpg" alt="">
-                            <a href="" id="cerrarBocas"><i class="fa-solid fa-xmark"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <a href="" class="niños" id="abrirNiños">
-                    <div class="oscurecer">
-                        <i class="fa-solid fa-burger"></i><p>Menú de niños</p>
-                    </div>
-                </a>
-                <div id="panelNiños" class="overlay">
-                    <div class="oscurecer">
-                        <h2 class="decorar">Menú para niños</h2>
-                        <div class="overlay-content">
-                            <img src="img/menu/niños.jpg" alt="">
-                            <a href="" id="cerrarNiños"><i class="fa-solid fa-xmark"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <a href="" class="ceviche" id="abrirCeviche">
-                    <div class="oscurecer">
-                        <i class="fa-solid fa-fish"></i><p>Ceviches de pescado</p>
-                    </div>
-                </a>
-                <div id="panelCeviche" class="overlay">
-                    <div class="oscurecer">
-                        <h2 class="decorar">Ceciches de Pescado</h2>
-                        <div class="overlay-content">
-                            <img src="img/menu/ceviche.jpg" alt="">
-                            <a href="" id="cerrarCeviche"><i class="fa-solid fa-xmark"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <a href="" class="antojitos" id="abrirAntojitos">
-                    <div class="oscurecer">
-                        <i class="fa-solid fa-bowl-food"></i><p>Antojitos</p>
-                    </div>
-                </a>
-                <div id="panelAntojitos" class="overlay">
-                    <div class="oscurecer">
-                        <h2 class="decorar">Antojitos</h2>
-                        <div class="overlay-content">
-                            <img src="img/menu/antojitos1.jpg" alt="">
-                            <img src="img/menu/antojitos2.jpg" alt="">
-                            <img src="img/menu/antojitos3.jpg" alt="">
-                            <img src="img/menu/antojitos4.jpg" alt="">
-                            <a href="" id="cerrarAntojitos"><i class="fa-solid fa-xmark"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <a href="" class="birria" id="abrirBirria">
-                    <div class="oscurecer">
-                        <i class="fa-solid fa-utensils"></i><p>Especialidades de birria</p>
-                    </div>
-                </a>
-                <div id="panelBirria" class="overlay">
-                    <div class="oscurecer">
-                        <h2 class="decorar">Especialidades de Birria</h2>
-                        <div class="overlay-content">
-                            <img src="img/menu/birria.jpg" alt="">
-                            <a href="" id="cerrarBirria"><i class="fa-solid fa-xmark"></i></a>
-                        </div>
-                    </div>
-                   
-                </div>
-
-                <a href="" class="carne" id="abrirCarnes">
-                    <div class="oscurecer">
-                        <i class="fa-solid fa-fire-burner"></i><p>Carnes</p>
-                    </div>
-                </a>
-                <div id="panelCarnes" class="overlay">
-                    <div class="oscurecer">
-                        <h2 class="decorar">Carnes</h2>
-                        <div class="overlay-content">
-                            <img src="img/menu/carnes.jpg" alt="">
-                            <a href="" id="cerrarCarnes"><i class="fa-solid fa-xmark"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <a href="" class="pollo" id="abrirPollos">
-                    <div class="oscurecer">
-                        <i class="fa-solid fa-drumstick-bite"></i><p>Pollo</p>
-                    </div>
-                </a>
-                <div id="panelPollos" class="overlay">
-                    <div class="oscurecer">
-                        <h2 class="decorar">Pollo</h2>
-                        <div class="overlay-content">
-                            <img src="img/menu/pollo.jpg" alt="">
-                            <a href="" id="cerrarPollos"><i class="fa-solid fa-xmark"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <a href="" class="pescado" id="abrirPescados">
-                    <div class="oscurecer">
-                        <i class="fa-solid fa-fish"></i><p>Pescado</p>
-                    </div>
-                </a>
-                <div id="panelPescados" class="overlay">
-                    <div class="oscurecer">
-                        <h2 class="decorar">Pescados</h2>
-                        <div class="overlay-content">
-                            <img src="img/menu/pescado.jpg" alt="">
-                            <a href="" id="cerrarPescados"><i class="fa-solid fa-xmark"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <a href="" class="casado" id="abrirCasados">
-                    <div class="oscurecer">
-                        <i class="fa-solid fa-kitchen-set"></i> <p>Casados</p>
-                    </div>
-                </a>
-
-                <div id="panelCasados" class="overlay">
-                    <div class="oscurecer">
-                        <h2 class="decorar">Casados</h2>
-                        <div class="overlay-content">
-                            <img src="img/menu/casados.jpg" alt="">
-                            <a href="" id="cerrarCasados"><i class="fa-solid fa-xmark"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-                <a href="" class="pasta" id="abrirPastas">
-                    <div class="oscurecer">
-                        <i class="fa-solid fa-bowl-food"></i> <p>Pastas</p>
-                    </div>
-                </a>
-                <div id="panelPastas" class="overlay">
-                    <div class="oscurecer">
-                        <h2 class="decorar">Pastas</h2>
-                        <div class="overlay-content">
-                            <img src="img/menu/pastas.jpg" alt="">
-                            <a href="" id="cerrarPastas"><i class="fa-solid fa-xmark"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                <a href="" class="arroces" id="abrirArroces">
-                    <div class="oscurecer">
-                        <i class="fa-solid fa-bowl-rice"></i> <p>Arroces</p>
-                    </div>
-                </a>
-                <div id="panelArroces" class="overlay">
-                    <div class="oscurecer">
-                        <h2 class="decorar">Arroces</h2>
-                        <div class="overlay-content">
-                            <img src="img/menu/arroces.jpg" alt="">
-                            <a href="" id="cerrarArroces"><i class="fa-solid fa-xmark"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-                <a href="" class="bebida" id="abrirbebidas">
-                    <div class="oscurecer">
-                        <i class="fa-solid fa-glass-water"></i> <p>Bebidas</p>
-                    </div>
-                </a>
-                <div id="panelBebidas" class="overlay">
-                    <div class="oscurecer">
-                        <h2 class="decorar">Bebidas</h2>
-                        <div class="overlay-content">
-                            <img src="img/menu/bebidas1.jpg" alt="">
-                            <img src="img/menu/bebidas2.jpg" alt="">
-                            <img src="img/menu/bebidas4.jpg" alt="">
-                            <img src="img/menu/bebidas5.jpg" alt="">
-                            <img src="img/menu/bebidas6.jpg" alt="">
-                            <img src="img/menu/bebidas7.jpg" alt="">
-                            <a href="" id="cerrarBebidas"><i class="fa-solid fa-xmark"></i></a>
-                        </div>
-                    </div>
-                    
-                </div>
+        <section class="bienvenida">
+            <div class="datos">
+                <h1 class="titulo-principal">Restaurante de ambiente familiar</h1>
+                <button><p>Ver Menú <i class="fa-solid fa-arrow-right"></i></p></button>
             </div>
         </section>
-
 
         <section class="sobreNosotros">
-            <div class="oscurecer">
-                <div class="texto">
-                    <p class="titulo">NUESTRO HORARIO</p>
-                    <p>Lunes - Viernes</p>
-                    <p>11:30am - 9:00pm</p>
-                    <p>Sabado - Domingo</p>
-                    <p>10:00am - 10:00pm</p>
-                </div>
+            <h1 class="titulo-principal"> SOBRE NOSOTROS</h1>
+            <p class="texto-simple">Les ofrecemos una experiencia única en la que podrán disfrutar de auténticos y deliciosos platillos y bebidas rodeados de mucha naturaleza 🌳✨</p>
 
-                <div class="texto">
-                    <p class="titulo">CONTÁCTANOS</p>
-                    <p><a target="_blank" href="https://api.whatsapp.com/send?phone=62579756">WhatsApp: 6257 9756</a></p>
-                    <p><a target="_blank" href="https://www.facebook.com/Tsnaturalhut">Facebook: Tsnaturalhut</a></p>
-                    <p><a target="_blank" href="https://www.instagram.com/tsnaturalhut">Instagram: Tsnaturalhut</a></p>
-                </div>
-                <div class="texto">
-                    <p class="titulo" >ESTAMOS UBICADOS</p>
-                    <p>250m oeste de la Iglesia Calle Pavas, San Isidro, Atenas</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.341910146308!2d-84.43774062535647!3d9.988589790116237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa051e0df00f6d3%3A0xd7f76b17467ae023!2sTS%20Natural%20Hut!5e0!3m2!1ses-419!2scr!4v1713290569230!5m2!1ses-419!2scr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                </div>
+            <div class="imagen">
+                <img src="img/3.jpg" alt="">
             </div>
         </section>
+
+        <section class="nuestrosPlatillos">
+            <h1 class="titulo-principal">Un viaje de sabores, que empieza en nuestra cocina y termina en tu mesa.🍽️🌿</h1>
+            <p class="texto-simple">En Natural Hut Restaurante cada platillo es preparado con los mejores ingredientes para conquistar tu paladar.¡Te esperamos!🍲</p>
         
-        
-        
-
-        <section class="reservar">
-            <div class="oscurecer">
-                <div class="texto">
-                    <h1>¿Te gustaría hacer una reservación?</h1>
-                    <p>Siempre tendremos un espacio para ti</p>
-                    <div class="izquierda">
-                        <p><a target="_blank" href="https://api.whatsapp.com/send?phone=62579756">Reservar</a></p>
-                    </div>
+            <div class="imagenes">
+                <div class="linea">
+                    <img src="img/comidas/pollo.jpg" alt="">
+                    <img src="img/comidas/arroces.jpg" alt="">
+                </div>
+                <div class="linea">
+                    <img src="img/comidas/casado.jpg" alt="">
+                    <img src="img/comidas/fideos.jpg" alt="">
                 </div>
             </div>
         </section>
 
-        <section class="video">
-            <div class="oscurecer">
-                <video autoplay muted loop src="img/SPOT NATURAL HUT MASTER FINAL.mp4"></video>
-            </div>
+        <section class="menu">
+            <h1 class="titulo-principal">
+                
+            </h1>
         </section>
-
-        <section class="imagenes">
-            <div class="oscurecer">
-                <div class="texto">
-                    <h2>Ven a pasar el dia con tu familia, amigos o pareja</h2>
-                    <p>Ubicados en lugar privilegiado, rodeados de hermosos paisajes que embellecen nuestro restaurante donde los envolverá en un ambiente cálido y acogedor</p>
-                </div>
-            </div>
-        </section>
-
-    
     </main>
 
     <footer>
-        <div class="logo">
-            <p class="titulo">TS NATURAL HUT</p>
-            <img src="img/logoFondoBlanco.png" alt="">
-        </div>
-        <div class="redes">
-            <p class="titulo">SÍGUENOS EN NUESTRAS REDES</p>
-            <p><a target="_blank" href="https://www.facebook.com/Tsnaturalhut">Facebook Tsnaturalhut</a></p>
-            <p><a target="_blank" href="https://www.instagram.com/tsnaturalhut">Instagram Tsnaturalhut</a></p>
-        </div>
-        <div class="FsobreNosotros">
-            <p class="titulo">SOBRE NOSOTROS</p>
-            <p>Somos un restaurante que les ofrece una experiencia única en la que podrán disfrutar de auténticos y deliciosos platillos y bebidas rodeados de mucha naturaleza</p>
-        </div>
+      
     </footer>
 
-    <script src="js/filtroMenu.js"></script>
 
 </body>
 </html>

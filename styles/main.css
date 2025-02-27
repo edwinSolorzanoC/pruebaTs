@@ -1,115 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
-
-*{
-    margin: 0px;
-    padding: 0px;
-}
-main{
-    font-family: "Montserrat", sans-serif;
-}
-p{
-    font-weight: 200;
-}
-.oscurecer{
-    backdrop-filter: blur(2px);
-    background-color: rgba(0, 0, 0, 0.35);
-
-    height: 100%;
-}
-.decorar{
-    font-family: "Dancing Script", cursive;
-    font-weight: 200;
-
-    padding: 2% 0%;
-}
-
-.titulo{
-    font-weight: 300;
-}
-
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 header{
-    display: flex;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1;
-    background-color: rgb(255, 255, 255);
-
-    align-items: center;
-}
-header .logo{
-    text-align: center;
-}
-header .logo img{
-    height: 70px;
-}
-
-header .navegacion{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    
-    width: 100%;
-}
-header .navegacion a{
-    color: #32620E;
-    text-decoration: none;
     padding: 0% 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "Josefin Sans", serif;
 }
 
-
-footer{
-    background-color: rgb(255, 255, 255);
-    font-family: "Montserrat", sans-serif;
-    display: block;
-    text-align: center;
-
-    padding: 5%;
-
-    color: rgb(0, 0, 0);
-}
-footer div{
-    padding: 5% 0%;
-}
-footer .logo img{
-    height: 70px;
+main{
+    color: white;
+    background-color: rgb(13, 13, 13);
 }
 
-footer .redes a{
-    text-align: center;
-    display: block;
-
-    text-decoration: none;
-    color: black;
-
-    font-weight: 100;
-}
-
-
-@media screen and (min-width:700px){
-
-    footer{
-        display: flex;
-    }
-    footer div{
-        padding: 2%;
-        width: 30%;
-    }
+button{
     
+    height: 50px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.22);
+    color: white;
+    backdrop-filter: blur(2px);
+    border: 1px solid rgba(117, 117, 117, 0.22);
 }
-@keyframes show{
 
-    from {
-        opacity: 0;
-        scale: 25%;
-    }
-
-    to{
-        opacity: 1;
-        scale: 100%;
-    }
+.titulo-principal{
+    font-weight: 450;
+    font-size: 6vh;
+}
+.subtitulo-principal{
+    font-weight: 200;
+    font-size: 3vh;
+}
+.texto-simple{
+    font-weight: 350;
+    font-size: 4vh;
 }
