@@ -16,12 +16,14 @@ body{
 main{
     color: white;
     background-color: rgb(13, 13, 13);
+    margin: 0%;
+    padding: 0%;
 }
 
 button{
-    
-    height: 50px;
-    width: 200px;
+    height: 90px;
+    width: 70%;
+    font-size: 2vh;
     background-color: rgba(0, 0, 0, 0.22);
     color: white;
     backdrop-filter: blur(2px);
@@ -29,7 +31,7 @@ button{
 }
 
 .titulo-principal{
-    font-weight: 450;
+    font-weight: 500;
     font-size: 6vh;
 }
 .subtitulo-principal{
@@ -39,4 +41,23 @@ button{
 .texto-simple{
     font-weight: 350;
     font-size: 4vh;
+}
+
+footer{
+    padding: 2%;
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+footer .informacion{
+    text-align: center;
+    display: flex;
+}
+footer .informacion div{
+    width: 100%;
+    text-align: center;
+}
+.informacion a{
+    color: white;
+    display: block;
+    text-align: center;
 }
