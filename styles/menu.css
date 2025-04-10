@@ -1,0 +1,14 @@
+@import url(main.css);
+
+.bloque{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 95%;
+    padding: 1%;
+    justify-content: space-around;
+}
+.bloque img{
+    padding: 1%;
+    width: 45%;
+}
